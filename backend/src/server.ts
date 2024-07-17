@@ -2,8 +2,7 @@ import express, { Express, Request, Response } from 'express';
 import cors from 'cors';
 import mongoose from 'mongoose';
 import dotenv from 'dotenv';
-import BattleCard from './models/battleCardModel';
-import { IBattleCard } from './models/battleCardModel';
+import BattleCard, { IBattleCard } from './models/battleCardModel';
 
 dotenv.config();
 
