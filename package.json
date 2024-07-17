@@ -1,0 +1,13 @@
+{
+  "scripts": {
+    "client": "cd frontend && npm run start",
+    "server": "cd backend && npm run dev",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  },
+  "dependencies": {
+    "mongodb": "^6.8.0"
+  }
+}
